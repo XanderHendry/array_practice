@@ -18,3 +18,8 @@ names[2]  # This code will retrieve the value in the third index position, Fen, 
 age[0] # This code will retrieve the value in the first index position, 32, from the array age.
 floats[3] # This code will retrieve the value in the 4th index position, 0.05, from the array floats.
 
+#Learned from documentation
+floats.map { |x| x * 5 }
+# this code calls the map method on the array floats, to create a new array based on the original array, but with modified values!
+# the supplied block creates a new argument, telling the computer to return multiply each value in the original array by 5, before creating anew array.
+# after this code runs, we should see a new array of [7.0, 17.5, 34.5, 0.25]
